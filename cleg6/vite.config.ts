@@ -6,7 +6,7 @@ import { defineConfig, loadEnv } from "vite";
 export default defineConfig(({ mode }) => {
   loadEnv(mode, ".", ""); // you can keep this if you use other envs
   return {
-    base: "/cl/",
+    base: "/",
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
