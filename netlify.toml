@@ -1,0 +1,7 @@
+[build]
+  base = "cleg6"
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
